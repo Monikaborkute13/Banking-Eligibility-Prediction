@@ -3,7 +3,7 @@ Loan-Eligibility-Prediction-Model
 
 Build a model to predict loan eligibility with an average accuracy of more than 76%
 
-# Banking Eligibility Prediction - Software Testing Project
+# Banking Loan Eligibility Prediction - Software Testing Project
 
 This is a software testing project designed for the **Banking Eligibility Prediction System** to evaluate and determine the user's loan eligibility based on parameters like age, income, employment type, and loan amount.
 
