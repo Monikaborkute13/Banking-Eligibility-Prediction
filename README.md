@@ -3,59 +3,58 @@ Loan-Eligibility-Prediction-Model
 
 Build a model to predict loan eligibility with an average accuracy of more than 76%
 
-Project Organization
-------------
+# Banking Eligibility Prediction - Software Testing Project
 
-    ├── LICENSE
-    ├── Make file           <- Make file with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modelling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupiter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modelling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+This is a software testing project designed for the **Banking Eligibility Prediction System** to evaluate and determine the user's loan eligibility based on parameters like age, income, employment type, and loan amount.
 
+## 📌 Project Features
+- Automated UI Testing using Selenium & TestNG
+- Page Object Model (POM) Design Pattern
+- API Testing using Postman
+- Manual Test Cases & Bug Reports
+- Extent HTML Reports with screenshots
+- Logging using Log4j
 
---------
+## 🧪 Technologies Used
+- Java + Selenium WebDriver + TestNG
+- Maven for build automation
+- Postman for API testing
+- Log4j for logging
+- Excel for manual test cases & bug tracking
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## 🗂️ Project Structure
+```
+BankingEligibilityPrediction/
+│
+├── src/                         # Page Object Model classes
+├── test/                        # TestNG test scripts
+├── postman/                     # Postman collections
+├── reports/                     # Extent HTML reports
+├── screenshots/                 # Screenshots of failed test cases
+├── logs/                        # Log4j config/logs
+├── documentation/              # Test cases, bug reports
+├── config.properties            # Configuration for tests
+├── pom.xml                      # Maven dependencies
+└── README.md                    # Project documentation
+```
 
+## 🚀 How to Run the Project
+1. Clone this repository
+2. Import as Maven project in IntelliJ/Eclipse
+3. Update `config.properties` with correct values
+4. Run tests using `TestNG`
 
+## ✅ Test Scenarios
+- Login with valid & invalid credentials
+- Loan eligibility form submission
+- Field validation and error handling
+
+## 📂 Documentation
+- Manual test cases and bug report files are in `/documentation`
+- Postman API collection is in `/postman`
+- Sample Extent report and screenshots are under `/reports` and `/screenshots`
+
+---
+**Developed by:** Monika Borkute  
 
 
