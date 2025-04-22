@@ -1,0 +1,40 @@
+{
+    "info": {
+        "name": "Banking Eligibility API",
+        "_postman_id": "unique-id",
+        "description": "Collection for Eligibility API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Check Eligibility",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\": \"Monika\", \"age\": 28, \"income\": 60000, \"employment\": \"Salaried\", \"loanAmount\": 200000}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/eligibility/check",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "eligibility",
+                        "check"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

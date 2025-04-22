@@ -1,0 +1,18 @@
+How to Run Loan Eligibility Prediction Project
+
+[Manual Testing]
+1. Open Manual_TestCases_LoanEligibility.xlsx
+2. Follow test steps for each test case
+3. Log results in Status column
+
+[Automation Testing]
+1. Open project in Eclipse/IntelliJ
+2. Ensure Maven dependencies are downloaded
+3. Configure `TestNG.xml` for desired test groups (e.g., smoke, regression)
+4. Run tests via TestNG or Maven (`mvn test`)
+5. Review reports in /test-output or generated HTML report
+
+[Postman API Testing]
+1. Import Loan_API_Collection.json in Postman
+2. Use collection runner to run tests or send individual requests
+3. Validate response body and status codes

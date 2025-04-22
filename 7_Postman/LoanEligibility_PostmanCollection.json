@@ -1,0 +1,68 @@
+{
+    "info": {
+        "name": "Loan Eligibility API Collection",
+        "_postman_id": "1234-5678-91011-1213",
+        "description": "API collection for Loan Eligibility Prediction system",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Submit Loan Application",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\": \"John Doe\", \"age\": 30, \"income\": 50000, \"creditScore\": 720, \"loanAmount\": 150000}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/submitLoanApplication",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "submitLoanApplication"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Eligibility Result",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "http://localhost:8080/getEligibilityResult?applicationId=12345",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "getEligibilityResult"
+                    ],
+                    "query": [
+                        {
+                            "key": "applicationId",
+                            "value": "12345"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
