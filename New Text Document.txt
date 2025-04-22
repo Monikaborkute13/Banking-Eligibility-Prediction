@@ -1,0 +1,10 @@
+✅ Software Requirements Specification (SRS) – PDF
+•	Overview of the banking loan eligibility system
+•	Functional Requirements (e.g., "System should accept user loan application", "Admin can review eligibility output")
+•	Non-Functional Requirements (e.g., performance, security, usability)
+•	System architecture overview
+✅ Requirement Traceability Matrix (RTM) – Excel
+•	Maps requirements → test scenarios → test cases
+•	Ensures 100% test coverage
+•	Columns: Req ID, Requirement Description, Test Scenario ID, Test Case ID, Status
+________________________________________
