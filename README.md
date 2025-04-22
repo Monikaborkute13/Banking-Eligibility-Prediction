@@ -7,6 +7,33 @@ Build a model to predict loan eligibility with an average accuracy of more than 
 
 This is a software testing project designed for the **Banking Eligibility Prediction System** to evaluate and determine the user's loan eligibility based on parameters like age, income, employment type, and loan amount.
 
+
+Banking-Eligibility-Prediction/
+├── 1_Requirements/
+├── 2_Test_Plan/
+├── 3_Test_Cases/
+│   ├── Manual_TestCases_LoanEligibility.xlsx
+│   └── Automation_TestScenarios_Selenium.xlsx
+├── 4_Bug_Reports/
+├── 5_Test_Reports/
+├── 6_Data/
+│   └── Loan_Applicants_Data.csv
+├── 7_Postman/
+│   └── Loan_API_Collection.json
+├── 8_Automation_Code/
+│   ├── BaseClass.java
+│   ├── LoanEligibilityTest.java
+│   ├── ExcelUtils.java
+│   ├── TestNG.xml
+│   └── pom.xml
+├── 9_Screenshots/
+├── 10_Documentation/
+│   ├── Project_Overview.md
+│   ├── Tools_and_Configuration.md
+│   └── How_to_Run_Project.txt
+└── README.md
+
+
 ## 📌 Project Features
 - Automated UI Testing using Selenium & TestNG
 - Page Object Model (POM) Design Pattern
